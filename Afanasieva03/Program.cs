@@ -23,16 +23,19 @@ namespace Afanasieva03
 				write (n) 
 				{
 					cout << "Автомобиль " << i + 1 << endl;
-					cout << "Марка " << i + 1 << n->mark << endl;
+					cout << "Марка " << i + 1 << " автомобиля" << n->mark << endl;
 				cin >> Autos[i].mark;
 
-				cout << "Модель " << i + 1 << n->model << endl;
+				cout << "Модель " << i + 1 << " автомобиля"  << n->model << endl;
 				cin >> Autos[i].model;
 
-				cout << "Цена " << i + 1 <<n-> cum << endl;
+				cout << "Цена " << i + 1 << " автомобиля"  << n-> cum << endl;
 				cin >> Autos[i].cum;
 				}
 			}
         }
     }
+	cout<<endl;
+	system ("pause");
+    return 0;
 }
