@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 public class Class1
 {
@@ -9,7 +10,7 @@ public class Class1
 		int cum;
 	}
 
-	for (int j = i + 1; j<model.Autos; j++)
+	for (int j = i + 1; j < model.Autos; j++)
 	{
 		if (model[i] < model[j])
 		{
