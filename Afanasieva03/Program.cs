@@ -8,14 +8,6 @@ namespace Afanasieva03
 {
     class Program
     {
-		struct Auto 
-		{
-			string mark;
-			string model;
-			int cum;
-			int size;
-			Tour* next;
-		};
         static void Main(string[] args)
         {
             int[] Autos = new  int[];
